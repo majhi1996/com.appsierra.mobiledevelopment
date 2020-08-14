@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[We are at the last card of horizontal swiping]]>
+    </line>
+    <line>
+      <![CDATA[We are at the bottom of the screen]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="186363" started-at="2020-08-13T22:58:18 IST" finished-at="2020-08-13T23:01:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="186363" started-at="2020-08-13T22:58:18 IST" finished-at="2020-08-13T23:01:24 IST">
+      <class name="tests.Runner">
+        <test-method status="PASS" signature="startExecution()[pri:0, instance:tests.Runner@74650e52]" name="startExecution" is-config="true" duration-ms="25028" started-at="2020-08-13T22:58:18 IST" finished-at="2020-08-13T22:58:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExecution -->
+        <test-method status="PASS" signature="sumbitForm()[pri:1, instance:tests.Runner@74650e52]" name="sumbitForm" duration-ms="11363" started-at="2020-08-13T22:58:43 IST" finished-at="2020-08-13T22:58:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumbitForm -->
+        <test-method status="PASS" signature="swipeToLast()[pri:2, instance:tests.Runner@74650e52]" name="swipeToLast" duration-ms="20804" started-at="2020-08-13T22:58:55 IST" finished-at="2020-08-13T22:59:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[We are at the last card of horizontal swiping]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- swipeToLast -->
+        <test-method status="PASS" signature="scrollToBottom()[pri:3, instance:tests.Runner@74650e52]" name="scrollToBottom" duration-ms="128715" started-at="2020-08-13T22:59:15 IST" finished-at="2020-08-13T23:01:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[We are at the bottom of the screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scrollToBottom -->
+        <test-method status="PASS" signature="stopExecution()[pri:0, instance:tests.Runner@74650e52]" name="stopExecution" is-config="true" duration-ms="307" started-at="2020-08-13T23:01:24 IST" finished-at="2020-08-13T23:01:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopExecution -->
+      </class> <!-- tests.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
